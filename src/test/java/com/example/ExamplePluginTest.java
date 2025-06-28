@@ -1,3 +1,4 @@
+
 package com.example;
 
 import net.runelite.client.RuneLite;
@@ -7,7 +8,7 @@ public class ExamplePluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(NPCHighlightPlugin.class);
 		RuneLite.main(args);
 	}
 }
